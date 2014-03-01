@@ -22,6 +22,7 @@ namespace DoStuff
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Text = string.Format("Clicked {0} times", ++clicks);
+            ++clicks;
         }
     }
 }
